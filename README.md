@@ -23,9 +23,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-
 - See hover states for interactive elements
-
 - See the correct mobile/desktop image depending on screen size
 
 ### Screenshot
@@ -38,8 +36,8 @@ Solution URL: Add your solution link here
 
 Live Site URL: Add your live site link here
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-using-desktop-first-wDzSi_pw_y](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-using-desktop-first-wDzSi_pw_y)
+- Live Site URL: [https://zvko-3dg3.github.io/product-preview-card-component-main/](https://zvko-3dg3.github.io/product-preview-card-component-main/)
 
 ## My process
 
@@ -68,12 +66,14 @@ I learned how to switch from a two-column desktop layout to a single-column mobi
 
 - Serving different images depending on screen size
 
+```
 By using the <picture> tag:
 
 <picture>
   <source srcset="assets/images/image-product-mobile.jpg" media="(max-width: 800px)">
   <img src="assets/images/image-product-desktop.jpg" alt="Product image">
 </picture>
+```
 
 - Resetting default button styles
 
