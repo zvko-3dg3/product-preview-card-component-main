@@ -66,9 +66,10 @@ I learned how to switch from a two-column desktop layout to a single-column mobi
 
 - Serving different images depending on screen size
 
-```
-By using the <picture> tag:
 
+By using the picture tag:
+
+```
 <picture>
   <source srcset="assets/images/image-product-mobile.jpg" media="(max-width: 800px)">
   <img src="assets/images/image-product-desktop.jpg" alt="Product image">
