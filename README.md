@@ -58,11 +58,13 @@ This project helped me improve several areas:
 
 I learned how to switch from a two-column desktop layout to a single-column mobile layout using:
 
+```
 @media (max-width: 800px) {
   main {
     flex-direction: column;
   }
 }
+```
 
 - Serving different images depending on screen size
 
